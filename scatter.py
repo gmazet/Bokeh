@@ -4,7 +4,7 @@ import numpy as np
 from bokeh.plotting import figure, show, output_file
 from bokeh.models.widgets import CheckboxButtonGroup
 
-N = 4
+N = 10
 x = np.random.random(size=N) * 100
 y = np.random.random(size=N) * 100
 radii = np.random.random(size=N) * 1.5

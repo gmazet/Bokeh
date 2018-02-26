@@ -24,7 +24,7 @@ dt= datetime(df2.index)
 #colors = [colormap[x] for x in df['Genre']]
 #print colors
 
-TOOLS="hover,crosshair,pan,wheel_zoom,zoom_in,zoom_out,box_zoom,undo,redo,reset,tap,save,box_select,poly_select,lasso_select,"
+TOOLS="hover,crosshair,pan,wheel_zoom,zoom_in,zoom_out,box_zoom,undo,redo,reset,tap,save,box_select,"
 
 p = figure(title = "test",x_axis_type="datetime", tools=TOOLS,plot_width=800, plot_height=400)
 p.circle(df2.index,df2['Age'], fill_alpha=0.2, size=10)
