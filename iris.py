@@ -17,8 +17,8 @@ age=np.random.random_integers(1,nb,nb)
 dtindex=pd.date_range(start='2014-04-28 00:00', periods=nb, freq='H')
 #df=pd.DataFrame({'Genre':genre, 'Lateral':lateral, 'Age':age, index:dtindex})
 df2=pd.DataFrame(age, index=dtindex, columns=['Age'])
-print df2
-dt= datetime(df2.index)
+print type(df2.index[0])
+#dt= datetime(df2.index)
 
 #colormap = {'homme': 'red', 'femme': 'green', 'virginica': 'blue'}
 #colors = [colormap[x] for x in df['Genre']]
